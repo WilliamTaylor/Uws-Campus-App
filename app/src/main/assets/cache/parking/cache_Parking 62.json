@@ -1,0 +1,74 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 55.84394,
+               "lng" : -4.4282128
+            },
+            "southwest" : {
+               "lat" : 55.8437285,
+               "lng" : -4.4295919
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "0.1 km",
+                  "value" : 96
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 69
+               },
+               "end_address" : "11 Townhead Terrace, Paisley, Renfrewshire PA1, UK",
+               "end_location" : {
+                  "lat" : 55.84375069999999,
+                  "lng" : -4.4295919
+               },
+               "start_address" : "6 Storie Street, Paisley, Renfrewshire PA1 2AR, UK",
+               "start_location" : {
+                  "lat" : 55.84394,
+                  "lng" : -4.4282128
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 96
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 69
+                     },
+                     "end_location" : {
+                        "lat" : 55.84375069999999,
+                        "lng" : -4.4295919
+                     },
+                     "html_instructions" : "Walk \u003cb\u003ewest\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "s_zsIh{_ZBPFl@?RN|ABDBLDd@IBDb@"
+                     },
+                     "start_location" : {
+                        "lat" : 55.84394,
+                        "lng" : -4.4282128
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "s_zsIh{_ZJ~@?RN|AFRDd@IBDb@"
+         },
+         "summary" : "",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

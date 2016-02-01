@@ -1,0 +1,53 @@
+{
+  "markers": [
+    {
+      "childMarkers": [],
+      "title": "Student Union",
+      "id": "places",
+      "lat": "55.844506",
+      "lng": "-4.427952"
+    },
+    {
+      "childMarkers": [],
+      "title": "Storie Street Accommodation",
+      "id": "places",
+      "lat": "55.843368",
+      "lng": "-4.427109"
+    },
+    {
+      "childMarkers": [],
+      "title": "Library Learning Space",
+      "id": "places",
+      "lat": "55.843244",
+      "lng": "-4.428298"
+    },
+    {
+      "childMarkers": [],
+      "title": "Campus Library",
+      "id": "places",
+      "lat": "55.843308",
+      "lng": "-4.427852"
+    },
+    {
+      "childMarkers": [],
+      "title": "Employment Link",
+      "id": "places",
+      "lat": "55.843419",
+      "lng": "-4.429264"
+    },
+    {
+      "childMarkers": [],
+      "title": "Print Shop",
+      "id": "places",
+      "lat": "55.844003",
+      "lng": "-4.430647"
+    },
+    {
+      "childMarkers": [],
+      "title": "Canteen",
+      "id": "places",
+      "lat": "55.843357",
+      "lng": "-4.429063"
+    }
+  ]
+}

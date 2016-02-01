@@ -1,0 +1,248 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 55.8450388,
+               "lng" : -4.4280063
+            },
+            "southwest" : {
+               "lat" : 55.8439425,
+               "lng" : -4.4308739
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "0.3 km",
+                  "value" : 273
+               },
+               "duration" : {
+                  "text" : "4 mins",
+                  "value" : 227
+               },
+               "end_address" : "67 High Street, Paisley, Renfrewshire PA1 2AY, UK",
+               "end_location" : {
+                  "lat" : 55.84453629999999,
+                  "lng" : -4.4308739
+               },
+               "start_address" : "6 Storie Street, Paisley, Renfrewshire PA1 2AR, UK",
+               "start_location" : {
+                  "lat" : 55.8439425,
+                  "lng" : -4.4280063
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 133
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 128
+                     },
+                     "end_location" : {
+                        "lat" : 55.8450376,
+                        "lng" : -4.4288652
+                     },
+                     "html_instructions" : "Walk \u003cb\u003enorth\u003c/b\u003e on \u003cb\u003eStorie St\u003c/b\u003e towards \u003cb\u003eHigh St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "s_zsI`z_ZGDgAl@kCvB"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8439425,
+                        "lng" : -4.4280063
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 140
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 99
+                     },
+                     "end_location" : {
+                        "lat" : 55.84453629999999,
+                        "lng" : -4.4308739
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eHigh St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "ofzsIl_`Z?X?RBTB\\BVBLHx@XjALf@FRFLDPJd@"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8450376,
+                        "lng" : -4.4288652
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "s_zsI`z_ZoAr@kCvB?XBh@Ft@LfAf@rB`@xA"
+         },
+         "summary" : "Storie St and High St",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      },
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 55.8447094,
+               "lng" : -4.4280063
+            },
+            "southwest" : {
+               "lat" : 55.8437217,
+               "lng" : -4.4308739
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "0.3 km",
+                  "value" : 274
+               },
+               "duration" : {
+                  "text" : "4 mins",
+                  "value" : 226
+               },
+               "end_address" : "67 High Street, Paisley, Renfrewshire PA1 2AY, UK",
+               "end_location" : {
+                  "lat" : 55.84453629999999,
+                  "lng" : -4.4308739
+               },
+               "start_address" : "6 Storie Street, Paisley, Renfrewshire PA1 2AR, UK",
+               "start_location" : {
+                  "lat" : 55.8439425,
+                  "lng" : -4.4280063
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "4 m",
+                        "value" : 4
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 3
+                     },
+                     "end_location" : {
+                        "lat" : 55.84397920000001,
+                        "lng" : -4.4280361
+                     },
+                     "html_instructions" : "Walk \u003cb\u003enorth-west\u003c/b\u003e on \u003cb\u003eStorie St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "s_zsI`z_ZGD"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8439425,
+                        "lng" : -4.4280063
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 118
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 85
+                     },
+                     "end_location" : {
+                        "lat" : 55.8437217,
+                        "lng" : -4.4297607
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e towards \u003cb\u003eHigh St\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "{_zsIfz_ZJr@Fl@?RN|ABDBLDd@IBJdA"
+                     },
+                     "start_location" : {
+                        "lat" : 55.84397920000001,
+                        "lng" : -4.4280361
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 118
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 117
+                     },
+                     "end_location" : {
+                        "lat" : 55.8447094,
+                        "lng" : -4.4304193
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e towards \u003cb\u003eHigh St\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "g~ysI~d`Zk@Tw@`@GDIBIDeAz@"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8437217,
+                        "lng" : -4.4297607
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "34 m",
+                        "value" : 34
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 21
+                     },
+                     "end_location" : {
+                        "lat" : 55.84453629999999,
+                        "lng" : -4.4308739
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e onto \u003cb\u003eHigh St\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "mdzsIbi`ZFRFLDPJd@"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8447094,
+                        "lng" : -4.4304193
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : [
+                  {
+                     "location" : {
+                        "lat" : 55.84422559999999,
+                        "lng" : -4.430044200000001
+                     },
+                     "step_index" : 2,
+                     "step_interpolation" : 0.4999999999999999
+                  }
+               ]
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "s_zsI`z_ZGDJr@F`AN|ABDHr@IBJdAcBv@QHoA`A`@xA"
+         },
+         "summary" : "High St",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

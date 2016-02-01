@@ -1,0 +1,299 @@
+{
+  "markers": [
+    {
+      "title": "Brough Building A",
+      "id": "building",
+      "lat": "55.844136",
+      "lng": "-4.430207",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "North Entrance",
+          "id": "entrance",
+          "lat": "55.844247",
+          "lng": "-4.430535"
+        },
+        {
+          "childMarkers": [],
+          "title": "Side Entrance",
+          "id": "entrance",
+          "lat": "55.844055",
+          "lng": "-4.430624"
+        }
+      ]
+    },
+    {
+      "title": "Richardson Building B",
+      "id": "building",
+      "lat": "55.843642",
+      "lng": "-4.430969",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "Main Entrance",
+          "id": "entrance",
+          "lat": "55.844253",
+          "lng": "-4.430507"
+        },
+        {
+          "childMarkers": [],
+          "title": "South Entrance",
+          "id": "entrance",
+          "lat": "55.843246",
+          "lng": "-4.430667"
+        }
+      ]
+    },
+    {
+      "title": "Denholm Building C",
+      "id": "building",
+      "lat": "55.843476",
+      "lng": "-4.431742",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "South Entrance",
+          "id": "entrance",
+          "lat": "55.843256",
+          "lng": "-4.43143"
+        },
+        {
+          "childMarkers": [],
+          "title": "East Entrance",
+          "id": "entrance",
+          "lat": "55.843527",
+          "lng": "-4.431296"
+        }
+      ]
+    },
+    {
+      "title": "McLean Building D",
+      "id": "building",
+      "lat": "55.843603",
+      "lng": "-4.429998",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "Side Entrance",
+          "id": "entrance",
+          "lat": "55.843655",
+          "lng": "-4.429765"
+        },
+        {
+          "childMarkers": [],
+          "title": "South Entrance",
+          "id": "entrance",
+          "lat": "55.843298",
+          "lng": "-4.429635"
+        }
+      ]
+    },
+    {
+      "title": "Henry East Building E",
+      "id": "building",
+      "lat": "55.843079",
+      "lng": "-4.430395",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "Main Entrance",
+          "id": "entrance",
+          "lat": "55.84321",
+          "lng": "-4.430099"
+        },
+        {
+          "childMarkers": [],
+          "title": "South Entrance",
+          "id": "entrance",
+          "lat": "55.842925",
+          "lng": "-4.430147"
+        }
+      ]
+    },
+    {
+      "title": "Henry West Building F",
+      "id": "building",
+      "lat": "55.843109",
+      "lng": "-4.431206",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "North Entrance",
+          "id": "entrance",
+          "lat": "55.843253",
+          "lng": "-4.43144"
+        },
+        {
+          "childMarkers": [],
+          "title": "East Entrance",
+          "id": "entrance",
+          "lat": "55.842999",
+          "lng": "-4.431595"
+        }
+      ]
+    },
+    {
+      "title": "Elles Building East L",
+      "id": "building",
+      "lat": "55.843109",
+      "lng": "-4.431206",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "Main Entrance",
+          "id": "entrance",
+          "lat": "55.843539",
+          "lng": "-4.428079"
+        },
+        {
+          "childMarkers": [],
+          "title": "Alternative Entrance",
+          "id": "entrance",
+          "lat": "55.843714",
+          "lng": "-4.428181"
+        }
+      ]
+    },
+    {
+      "title": "Elles Building West J",
+      "id": "building",
+      "lat": "55.843407",
+      "lng": "-4.429129",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "West Entrance",
+          "id": "entrance",
+          "lat": "55.843335",
+          "lng": "-4.429433"
+        },
+        {
+          "childMarkers": [],
+          "title": "East Entrance",
+          "id": "entrance",
+          "lat": "55.843701",
+          "lng": "-4.428176"
+        }
+      ]
+    },
+    {
+      "title": "Elles Building South H",
+      "id": "building",
+      "lat": "55.84297",
+      "lng": "-4.428721",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "Side Entrance",
+          "id": "entrance",
+          "lat": "55.84299",
+          "lng": "-4.429077"
+        },
+        {
+          "childMarkers": [],
+          "title": "Main Entrance",
+          "id": "entrance",
+          "lat": "55.842783",
+          "lng": "-4.42861"
+        }
+      ]
+    },
+    {
+      "title": "Gardner Building G",
+      "id": "building",
+      "lat": "55.842717",
+      "lng": "-4.428169",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "Main Entrance",
+          "id": "entrance",
+          "lat": "55.84268",
+          "lng": "-4.428449"
+        }
+      ]
+    },
+    {
+      "title": "Oswald Building R",
+      "id": "building",
+      "lat": "55.842615",
+      "lng": "-4.428727",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "Main Entrance",
+          "id": "entrance",
+          "lat": "55.842642",
+          "lng": "-4.428691"
+        }
+      ]
+    },
+    {
+      "title": "Tow Howdie Building T",
+      "id": "building",
+      "lat": "55.842561",
+      "lng": "-4.43121",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "Main Entrance",
+          "id": "entrance",
+          "lat": "55.842558",
+          "lng": "-4.431772"
+        }
+      ]
+    },
+    {
+      "title": "Witherspoon Building M",
+      "id": "building",
+      "lat": "55.844241",
+      "lng": "-4.428461",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "Main Entrance",
+          "id": "entrance",
+          "lat": "55.84439",
+          "lng": "-4.428511"
+        }
+      ]
+    },
+    {
+      "title": "Conference Building P",
+      "id": "building",
+      "lat": "55.843946",
+      "lng": "-4.428877",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "East Entrance",
+          "id": "entrance",
+          "lat": "55.843917",
+          "lng": "-4.428613"
+        },
+        {
+          "childMarkers": [],
+          "title": "West Entrance",
+          "id": "entrance",
+          "lat": "55.843774",
+          "lng": "-4.429393"
+        }
+      ]
+    },
+    {
+      "title": "Library Learning Space N",
+      "id": "building",
+      "lat": "55.84335",
+      "lng": "-4.428078",
+      "childMarkers": [
+        {
+          "childMarkers": [],
+          "title": "North Entrance",
+          "id": "entrance",
+          "lat": "55.843523",
+          "lng": "-4.428103"
+        }
+      ]
+    }
+  ]
+}

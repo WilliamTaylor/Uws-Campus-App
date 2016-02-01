@@ -1,0 +1,74 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 55.8426724,
+               "lng" : -4.4318889
+            },
+            "southwest" : {
+               "lat" : 55.8425863,
+               "lng" : -4.4322621
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "26 m",
+                  "value" : 26
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 17
+               },
+               "end_address" : "25 Lady Lane, Paisley Campus, University of West Scotland, Paisley, Renfrewshire PA1 2LH, UK",
+               "end_location" : {
+                  "lat" : 55.8426724,
+                  "lng" : -4.4318889
+               },
+               "start_address" : "26 Lady Lane, Paisley, Renfrewshire PA1, UK",
+               "start_location" : {
+                  "lat" : 55.8425863,
+                  "lng" : -4.4322621
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "26 m",
+                        "value" : 26
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 17
+                     },
+                     "end_location" : {
+                        "lat" : 55.8426724,
+                        "lng" : -4.4318889
+                     },
+                     "html_instructions" : "Walk \u003cb\u003eeast\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ewysIrt`Z?GAOAQI[AC"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8425863,
+                        "lng" : -4.4322621
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ewysIrt`ZAWKm@AC"
+         },
+         "summary" : "",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

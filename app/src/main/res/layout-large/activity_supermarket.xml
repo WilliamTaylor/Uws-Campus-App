@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <fragment
+        android:id="@+id/shopMap"
+        android:largeHeap="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.MapFragment" />
+
+     <Button
+         android:id="@+id/SwitchMap"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:text="Find Shop"
+         android:width="150dp" />
+
+     <Button
+         android:id="@+id/SupermarketSwitch"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentTop="true"
+         android:layout_toRightOf="@+id/SwitchMap"
+         android:text="Switch Map"
+         android:width="150dp" />
+  
+</RelativeLayout>

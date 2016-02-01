@@ -1,0 +1,122 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 55.84394,
+               "lng" : -4.4282128
+            },
+            "southwest" : {
+               "lat" : 55.8425058,
+               "lng" : -4.4297795
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "0.3 km",
+                  "value" : 282
+               },
+               "duration" : {
+                  "text" : "3 mins",
+                  "value" : 200
+               },
+               "end_address" : "54 George Street, Paisley, Renfrewshire PA1, UK",
+               "end_location" : {
+                  "lat" : 55.8425058,
+                  "lng" : -4.4285054
+               },
+               "start_address" : "6 Storie Street, Paisley, Renfrewshire PA1 2AR, UK",
+               "start_location" : {
+                  "lat" : 55.84394,
+                  "lng" : -4.4282128
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 107
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 76
+                     },
+                     "end_location" : {
+                        "lat" : 55.8437217,
+                        "lng" : -4.4297607
+                     },
+                     "html_instructions" : "Walk \u003cb\u003ewest\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "s_zsIh{_ZBPFl@?RN|ABDBLDd@IBJdA"
+                     },
+                     "start_location" : {
+                        "lat" : 55.84394,
+                        "lng" : -4.4282128
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 123
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 88
+                     },
+                     "end_location" : {
+                        "lat" : 55.8427303,
+                        "lng" : -4.4290516
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "g~ysI~d`ZFBbAc@DCBCBC@CJ]BEFM`@U^ONE"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8437217,
+                        "lng" : -4.4297607
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "52 m",
+                        "value" : 52
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 36
+                     },
+                     "end_location" : {
+                        "lat" : 55.8425058,
+                        "lng" : -4.4285054
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "axysIp``Z@cA?G@E?E@CBE@CDCXA"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8427303,
+                        "lng" : -4.4290516
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "s_zsIh{_ZJ~@?RN|AFRDd@IBJdAFBhAg@FGLa@JS`Ae@NE@cA@MFS^E"
+         },
+         "summary" : "",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

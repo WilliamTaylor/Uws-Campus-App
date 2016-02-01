@@ -1,0 +1,97 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 55.8439425,
+               "lng" : -4.4259913
+            },
+            "southwest" : {
+               "lat" : 55.8436021,
+               "lng" : -4.4280063
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "0.1 km",
+                  "value" : 147
+               },
+               "duration" : {
+                  "text" : "2 mins",
+                  "value" : 101
+               },
+               "end_address" : "Witherspoon Street, Paisley, Renfrewshire PA1 1AG, UK",
+               "end_location" : {
+                  "lat" : 55.8437009,
+                  "lng" : -4.4259913
+               },
+               "start_address" : "6 Storie Street, Paisley, Renfrewshire PA1 2AR, UK",
+               "start_location" : {
+                  "lat" : 55.8439425,
+                  "lng" : -4.4280063
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "54 m",
+                        "value" : 54
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 39
+                     },
+                     "end_location" : {
+                        "lat" : 55.8436105,
+                        "lng" : -4.4274701
+                     },
+                     "html_instructions" : "Walk \u003cb\u003esouth-east\u003c/b\u003e on \u003cb\u003eStorie St\u003c/b\u003e towards \u003cb\u003eWitherspoon St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "s_zsI`z_ZNMRODEDGHO@GBG@K?S"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8439425,
+                        "lng" : -4.4280063
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "93 m",
+                        "value" : 93
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 62
+                     },
+                     "end_location" : {
+                        "lat" : 55.8437009,
+                        "lng" : -4.4259913
+                     },
+                     "html_instructions" : "Continue onto \u003cb\u003eWitherspoon St\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "q}ysItv_Z?C@E?GA{@GiAGkBAc@"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8436105,
+                        "lng" : -4.4274701
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "s_zsI`z_Zn@k@JWDS@e@SuG"
+         },
+         "summary" : "Storie St and Witherspoon St",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

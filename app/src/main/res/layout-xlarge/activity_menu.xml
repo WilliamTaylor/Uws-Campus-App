@@ -1,0 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/menu_back"
+    android:orientation="vertical" >
+
+ 
+     
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+ 
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.41"
+        android:gravity="center" >
+         
+        <Button
+            android:id="@+id/AboutButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TransportButton"
+            android:layout_alignRight="@+id/TransportButton"
+            android:layout_below="@+id/TransportButton"
+            android:layout_marginTop="16dp"
+            android:minHeight="55dp"
+            android:text="About"
+            android:textSize="25sp"
+            android:width="240dp" />
+
+     <Button
+         android:id="@+id/ContactButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/StudentLifeButton"
+         android:layout_alignRight="@+id/StudentLifeButton"
+         android:layout_below="@+id/StudentLifeButton"
+         android:layout_marginTop="19dp"
+         android:minHeight="55dp"
+         android:text="Contacts"
+         android:textSize="25sp" />
+
+     <Button
+         android:id="@+id/TransportButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/ContactButton"
+         android:layout_alignRight="@+id/ContactButton"
+         android:layout_below="@+id/ContactButton"
+         android:layout_marginTop="18dp"
+         android:minHeight="55dp"
+         android:text="Transport"
+         android:textSize="25sp"
+         android:weightSum="1"
+         android:width="240dp" />
+
+     <Button
+         android:id="@+id/UtilitiesButtons"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/AboutButton"
+         android:layout_alignRight="@+id/AboutButton"
+         android:layout_below="@+id/AboutButton"
+         android:layout_marginTop="15dp"
+         android:minHeight="55dp"
+         android:text="Tools"
+         android:textSize="25sp" />
+
+     <Button
+         android:id="@+id/StudentLifeButton"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/CampusButton"
+         android:layout_below="@+id/CampusButton"
+         android:layout_marginTop="15dp"
+         android:minHeight="55dp"
+         android:text="Student News"
+         android:textSize="25sp" />
+
+     <Button
+         android:id="@+id/CampusButton"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:minHeight="55dp"
+         android:text="Campus Map"
+         android:textSize="25sp"
+         android:width="280dp" />
+     
+   </RelativeLayout>
+
+   <RelativeLayout
+       android:layout_width="0dp"
+       android:layout_height="match_parent"
+       android:layout_weight="1.00" >
+     
+       	     <ImageView
+       	         android:id="@+id/imageView2"
+       	         android:layout_width="wrap_content"
+       	         android:layout_height="wrap_content"
+       	         android:layout_alignParentBottom="true"
+       	         android:layout_alignParentLeft="true"
+       	         android:layout_alignParentRight="true"
+       	         android:layout_alignParentTop="true"
+       	         android:adjustViewBounds="true"
+       	         android:scaleType="fitCenter"
+       	         android:src="@raw/front" />
+       
+   </RelativeLayout>
+</LinearLayout>
+
+     <ImageView
+         android:id="@+id/imageView5"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:adjustViewBounds="true"
+         android:contentDescription="@string/uws"
+         android:scaleType="fitXY"
+         android:src="@raw/ayr" />
+
+</RelativeLayout>

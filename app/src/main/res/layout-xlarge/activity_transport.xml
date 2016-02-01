@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+      
+     <fragment
+	    android:id="@+id/transportMap"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    class="com.google.android.gms.maps.MapFragment"
+     />
+    
+      <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/busButton"
+        android:scaleType="fitXY"
+        android:src="@raw/key" />
+      
+    <ImageButton
+        android:id="@+id/trainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#80000000"
+        android:src="@raw/train" />
+
+    <ImageButton
+        android:id="@+id/busButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/trainButton"
+        android:background="#80000000"
+        android:src="@raw/bus" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_toRightOf="@+id/busButton"
+        android:gravity="center"
+        android:text="Tap the buttons on the left to get directions to bus stops and train stations."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/TransportSwitchMap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Switch Map"
+        android:width="200dp" />
+  
+</RelativeLayout>

@@ -1,0 +1,98 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 55.84299739999999,
+               "lng" : -4.431471699999999
+            },
+            "southwest" : {
+               "lat" : 55.8425863,
+               "lng" : -4.4322621
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "81 m",
+                  "value" : 81
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 58
+               },
+               "end_address" : "23 Lady Lane, Paisley Campus, University of West Scotland, Paisley, Renfrewshire PA1 2LH, UK",
+               "end_location" : {
+                  "lat" : 55.84299739999999,
+                  "lng" : -4.4316013
+               },
+               "start_address" : "26 Lady Lane, Paisley, Renfrewshire PA1, UK",
+               "start_location" : {
+                  "lat" : 55.8425863,
+                  "lng" : -4.4322621
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "54 m",
+                        "value" : 54
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 37
+                     },
+                     "end_location" : {
+                        "lat" : 55.8427632,
+                        "lng" : -4.431471699999999
+                     },
+                     "html_instructions" : "Walk \u003cb\u003eeast\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ewysIrt`Z?GAOAQI[CIEICIAOAOAY"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8425863,
+                        "lng" : -4.4322621
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "27 m",
+                        "value" : 27
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 21
+                     },
+                     "end_location" : {
+                        "lat" : 55.84299739999999,
+                        "lng" : -4.4316013
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "gxysIto`Zo@X"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8427632,
+                        "lng" : -4.431471699999999
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ewysIrt`ZAWKm@Om@Ci@o@X"
+         },
+         "summary" : "",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.uws.campus_app" android:versionCode="13" android:versionName="1.1" >
+     <permission
+        android:name="com.uws.campus_app.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+ 
+    <uses-permission android:name="com.uws.campus_app.permission.permission.MAPS_RECEIVE" />
+    <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+ 
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+ 
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    
+    <supports-screens
+        android:smallScreens="false"
+	 	android:normalScreens="true"
+		android:largeScreens= "true"
+		android:xlargeScreens="true"
+		android:anyDensity="true">
+    </supports-screens>
+
+    <application android:largeHeap="true" android:allowBackup="true" android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.Holo" 
+        android:name=".UwsCampusApp">
+        <activity android:name=".impl.activities.SplashActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+         </activity>
+
+        <activity android:name=".impl.activities.SupermarketActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".impl.activities.WebViewActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".impl.activities.FeedbackActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".impl.activities.StudentLifeActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".impl.activities.UtilitiesActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".impl.activities.TransportActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".impl.activities.ContactActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".impl.activities.CampusActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".impl.activities.AboutActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".impl.activities.NotesActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".impl.activities.MenuActivity" android:screenOrientation="portrait"/>
+
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyD0hgERobCblhvxI2f5GRutKlIluVj18ps" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
+    </application>
+</manifest>

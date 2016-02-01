@@ -1,0 +1,74 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 55.8425863,
+               "lng" : -4.4322621
+            },
+            "southwest" : {
+               "lat" : 55.8425772,
+               "lng" : -4.4324832
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "14 m",
+                  "value" : 14
+               },
+               "duration" : {
+                  "text" : "1 min",
+                  "value" : 11
+               },
+               "end_address" : "26 Lady Lane, Paisley, Renfrewshire PA1, UK",
+               "end_location" : {
+                  "lat" : 55.8425772,
+                  "lng" : -4.4324832
+               },
+               "start_address" : "26 Lady Lane, Paisley, Renfrewshire PA1, UK",
+               "start_location" : {
+                  "lat" : 55.8425863,
+                  "lng" : -4.4322621
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "14 m",
+                        "value" : 14
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 11
+                     },
+                     "end_location" : {
+                        "lat" : 55.8425772,
+                        "lng" : -4.4324832
+                     },
+                     "html_instructions" : "Walk \u003cb\u003ewest\u003c/b\u003e towards \u003cb\u003eLady Ln\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ewysIrt`Z@P?X"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8425863,
+                        "lng" : -4.4322621
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ewysIrt`Z@j@"
+         },
+         "summary" : "",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

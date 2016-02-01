@@ -1,0 +1,46 @@
+{
+  "markers": [
+    {
+      "childMarkers": [],
+      "title": "Parking 1",
+      "id": "parking",
+      "lat": "55.844055",
+      "lng": "-4.431551"
+    },
+    {
+      "childMarkers": [],
+      "title": "Parking 2",
+      "id": "parking",
+      "lat": "55.842994",
+      "lng": "-4.428032"
+    },
+    {
+      "childMarkers": [],
+      "title": "Parking 3",
+      "id": "parking",
+      "lat": "55.843777",
+      "lng": "-4.428107"
+    },
+    {
+      "childMarkers": [],
+      "title": "Parking 4",
+      "id": "parking",
+      "lat": "55.843913",
+      "lng": "-4.427504"
+    },
+    {
+      "childMarkers": [],
+      "title": "Parking 5",
+      "id": "parking",
+      "lat": "55.842919",
+      "lng": "-4.431822"
+    },
+    {
+      "childMarkers": [],
+      "title": "Parking 6",
+      "id": "parking",
+      "lat": "55.843738",
+      "lng": "-4.429585"
+    }
+  ]
+}

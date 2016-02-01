@@ -1,0 +1,4 @@
+This is the official UWS Campus app which can help be your guide when it comes to navigating around
+the campus. It can also help contact specific offices and people and provide live timetables to
+local transport in the area. We want to constantly improve the app so make sure to submit feedback
+to us as it will help in the applications development.

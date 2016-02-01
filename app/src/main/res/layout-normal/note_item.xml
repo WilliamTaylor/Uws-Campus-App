@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F2F2" >
+
+    <TextView
+        android:id="@+id/note_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_toLeftOf="@+id/AddButton"
+        android:gravity="center"
+        android:height="30dp"
+        android:padding="5dp"
+        android:text="My Note"
+        android:textColor="#000000"
+        android:textSize="8sp" />
+
+    <ImageView
+        android:id="@+id/RemoveButton"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/AddButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_toLeftOf="@+id/Up"
+        android:adjustViewBounds="true"
+        android:src="@raw/remove" />
+
+    <ImageView
+        android:id="@+id/AddButton"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/note_title"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_toLeftOf="@+id/RemoveButton"
+        android:adjustViewBounds="false"
+        android:baselineAlignBottom="false"
+        android:cropToPadding="false"
+        android:src="@raw/add" />
+
+    <ImageView
+        android:id="@+id/Down"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Up"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="1dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@raw/down" />
+
+    <ImageView
+        android:id="@+id/Up"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/RemoveButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_toLeftOf="@+id/Down"
+        android:adjustViewBounds="true"
+        android:src="@raw/up" />
+
+</RelativeLayout>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <fragment
+        android:id="@+id/map"
+        android:largeHeap="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:name="com.google.android.gms.maps.MapFragment" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="bottom" >
+
+         <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center"  >
+
+        <Button
+            android:id="@+id/ShowSpecial"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:minWidth="0dp"
+            android:text="Popular Places"
+            android:textSize="15sp" />
+        
+        </RelativeLayout>
+
+        
+        <RelativeLayout
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center" >
+            
+        <Button
+            android:id="@+id/ShowBuildings"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="205dp"
+            android:layout_height="wrap_content"
+            android:minWidth="0dp"
+            android:text="Lecture Buildings"
+            android:textSize="15sp" />
+
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+            android:gravity="center"  >
+
+	        <Button
+	            android:id="@+id/ShowParking"
+	            style="?android:attr/buttonStyleSmall"
+	            android:layout_width="205dp"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentTop="true"
+	            android:minWidth="0dp"
+	            android:text="Parking Area&apos;s"
+	            android:textSize="15sp" />
+	
+        </RelativeLayout>
+      
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.25"
+           android:gravity="center" >
+        
+              <Button
+                  android:id="@+id/ShowEntrances"
+                  style="?android:attr/buttonStyleSmall"
+                  android:layout_width="205dp"
+                  android:layout_height="wrap_content"
+                  android:layout_weight="0.60"
+                  android:minWidth="0dp"
+                  android:text="Entrances"
+                  android:textSize="15sp" />
+              
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Switch"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/FindRoomOnMap"
+        android:text="Switch Map"
+        android:textSize="15sp"
+        android:width="150dp" />
+
+    <Button
+        android:id="@+id/FindRoomOnMap"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Find Location"
+        android:textSize="15sp"
+        android:width="150dp" />
+
+</RelativeLayout>

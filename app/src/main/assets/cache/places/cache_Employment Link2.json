@@ -1,0 +1,98 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 55.84394,
+               "lng" : -4.4282128
+            },
+            "southwest" : {
+               "lat" : 55.84326309999999,
+               "lng" : -4.4297795
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "0.2 km",
+                  "value" : 161
+               },
+               "duration" : {
+                  "text" : "2 mins",
+                  "value" : 115
+               },
+               "end_address" : "41 Storie Street, Paisley, Renfrewshire PA1 2AP, UK",
+               "end_location" : {
+                  "lat" : 55.84326309999999,
+                  "lng" : -4.4295182
+               },
+               "start_address" : "6 Storie Street, Paisley, Renfrewshire PA1 2AR, UK",
+               "start_location" : {
+                  "lat" : 55.84394,
+                  "lng" : -4.4282128
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 107
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 76
+                     },
+                     "end_location" : {
+                        "lat" : 55.8437217,
+                        "lng" : -4.4297607
+                     },
+                     "html_instructions" : "Walk \u003cb\u003ewest\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "s_zsIh{_ZBPFl@?RN|ABDBLDd@IBJdA"
+                     },
+                     "start_location" : {
+                        "lat" : 55.84394,
+                        "lng" : -4.4282128
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "54 m",
+                        "value" : 54
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 39
+                     },
+                     "end_location" : {
+                        "lat" : 55.84326309999999,
+                        "lng" : -4.4295182
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e\u003cdiv style=\"font-size:0.9em\"\u003eDestination will be on the left\u003c/div\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "g~ysI~d`ZFBbAc@DCBCBC@C"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8437217,
+                        "lng" : -4.4297607
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "s_zsIh{_ZJ~@?RN|AFRDd@IBJdAFBhAg@HK"
+         },
+         "summary" : "",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

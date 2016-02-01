@@ -1,0 +1,32 @@
+{
+  "markers": [
+    {
+      "childMarkers": [],
+      "title": "Main Entrance",
+      "id": "entrance",
+      "lat": "55.844055",
+      "lng": "-4.4305"
+    },
+    {
+      "childMarkers": [],
+      "title": "West Entrance",
+      "id": "entrance",
+      "lat": "55.84257",
+      "lng": "-4.432482"
+    },
+    {
+      "childMarkers": [],
+      "title": "East Entrance",
+      "id": "entrance",
+      "lat": "55.843943",
+      "lng": "-4.42819"
+    },
+    {
+      "childMarkers": [],
+      "title": "South Entrance",
+      "id": "entrance",
+      "lat": "55.842506",
+      "lng": "-4.428501"
+    }
+  ]
+}

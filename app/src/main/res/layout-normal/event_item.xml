@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F2F2F2" >
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/date"
+        android:gravity="center"
+        android:height="75dp"
+        android:padding="5dp"
+        android:text="Get smart with new postgraduate computer networking Masters"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        android:textStyle="normal" />
+
+     <TextView
+         android:id="@+id/date"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBottom="@+id/title"
+         android:layout_alignParentRight="true"
+         android:gravity="center_vertical"
+         android:height="75dp"
+         android:padding="5dp"
+         android:text="2014-08-20T08:50:04"
+         android:textColor="#000000"
+         android:textSize="8sp" />
+
+</RelativeLayout>

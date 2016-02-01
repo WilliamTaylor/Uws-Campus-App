@@ -1,0 +1,146 @@
+{
+   "routes" : [
+      {
+         "bounds" : {
+            "northeast" : {
+               "lat" : 55.84375069999999,
+               "lng" : -4.4290516
+            },
+            "southwest" : {
+               "lat" : 55.8425863,
+               "lng" : -4.4322621
+            }
+         },
+         "copyrights" : "Map data ©2014 Google",
+         "legs" : [
+            {
+               "distance" : {
+                  "text" : "0.4 km",
+                  "value" : 354
+               },
+               "duration" : {
+                  "text" : "4 mins",
+                  "value" : 259
+               },
+               "end_address" : "11 Townhead Terrace, Paisley, Renfrewshire PA1, UK",
+               "end_location" : {
+                  "lat" : 55.84375069999999,
+                  "lng" : -4.4295919
+               },
+               "start_address" : "26 Lady Lane, Paisley, Renfrewshire PA1, UK",
+               "start_location" : {
+                  "lat" : 55.8425863,
+                  "lng" : -4.4322621
+               },
+               "steps" : [
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 144
+                     },
+                     "duration" : {
+                        "text" : "2 mins",
+                        "value" : 106
+                     },
+                     "end_location" : {
+                        "lat" : 55.84289339999999,
+                        "lng" : -4.4300652
+                     },
+                     "html_instructions" : "Walk \u003cb\u003eeast\u003c/b\u003e",
+                     "polyline" : {
+                        "points" : "ewysIrt`Z?GAOAQI[CIEICIAOAOAYCmCU}BAE?C@A"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8425863,
+                        "lng" : -4.4322621
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "76 m",
+                        "value" : 76
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 56
+                     },
+                     "end_location" : {
+                        "lat" : 55.8427303,
+                        "lng" : -4.4290516
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "ayysI|f`Z@C@CROBCBC@C@C@G?mAAo@C]"
+                     },
+                     "start_location" : {
+                        "lat" : 55.84289339999999,
+                        "lng" : -4.4300652
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "0.1 km",
+                        "value" : 123
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 89
+                     },
+                     "end_location" : {
+                        "lat" : 55.8437217,
+                        "lng" : -4.4297607
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eleft\u003c/b\u003e",
+                     "maneuver" : "turn-left",
+                     "polyline" : {
+                        "points" : "axysIp``ZOD_@Na@TGLCDK\\ABCBCBEBcAb@GC"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8427303,
+                        "lng" : -4.4290516
+                     },
+                     "travel_mode" : "WALKING"
+                  },
+                  {
+                     "distance" : {
+                        "text" : "11 m",
+                        "value" : 11
+                     },
+                     "duration" : {
+                        "text" : "1 min",
+                        "value" : 8
+                     },
+                     "end_location" : {
+                        "lat" : 55.84375069999999,
+                        "lng" : -4.4295919
+                     },
+                     "html_instructions" : "Turn \u003cb\u003eright\u003c/b\u003e",
+                     "maneuver" : "turn-right",
+                     "polyline" : {
+                        "points" : "g~ysI~d`ZEa@"
+                     },
+                     "start_location" : {
+                        "lat" : 55.8437217,
+                        "lng" : -4.4297607
+                     },
+                     "travel_mode" : "WALKING"
+                  }
+               ],
+               "via_waypoint" : []
+            }
+         ],
+         "overview_polyline" : {
+            "points" : "ewysIrt`ZAWKm@Om@Ci@CmCU}BAIBE\\[BG@uAEmAo@Ta@TGLOb@ONcAb@GCEa@"
+         },
+         "summary" : "",
+         "warnings" : [
+            "Walking directions are in beta.    Use caution – This route may be missing sidewalks or pedestrian paths."
+         ],
+         "waypoint_order" : []
+      }
+   ],
+   "status" : "OK"
+}

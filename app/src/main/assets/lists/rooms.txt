@@ -1,0 +1,31 @@
+Library Learning Space
+Storie Street Accommodation
+Campus Library
+Student Union
+Print Shop
+Canteen
+Main Entrance
+West Entrance
+East Entrance
+South Entrance
+Employment Link
+Brough Building A
+Richardson Building B
+Denholm Building C
+McLean Building D
+Henry West Building F
+Henry East Building E
+Tow Howdie Building T
+Oswald Building R
+Gardner Building G
+Elles Building East L
+Elles Building West J
+Elles Building South H
+Conference Building P
+Witherspoon Building M
+Parking 1
+Parking 2
+Parking 3
+Parking 4
+Parking 5
+Parking 6

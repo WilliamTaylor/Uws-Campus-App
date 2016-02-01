@@ -1,0 +1,18 @@
+#6 Major App Update !
+18/10/2015
+Fixed map issues on Samsung Devices. Improved Performance. Maps updated to the latest version. Better map controls added.
+#5 Fixed Room Error & Better Animations
+10/25/2014
+I have fixed an error where it wouldnt show a direction to a room starting with D... this has now been fixed. I have also added better animations which will display on all devices.
+#4 Minor Validation Update
+17/09/2014
+I have decided to make some small UI tweaks as well as advance how I calculate a valid room. The next update that shall be posted will a major patch to the program.
+#3 Minor Layout Adjustment 
+13/09/2014
+I have added a small adjustment to the menu layout for normal devices as sometimes the buttons can clip the bottom campus picture.
+#2 First Day Patch
+12/09/2014
+The day one patch which fixes a number of bugs related to caching data if these occur make sure to provide feedback as all bugs do need to be fixed.
+#1 Initial Release
+11/09/2014
+This is the initial release which shows the basic functionality of the application. More features and in depth features will be added over time.

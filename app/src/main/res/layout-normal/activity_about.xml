@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@raw/menu_back"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_above="@+id/linearLayout1"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/AboutText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="110dp"
+            android:gravity="center"
+            android:text="@string/about_into"
+            android:textSize="10sp" />
+
+        <ListView
+            android:id="@+id/UpdateList"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/AboutText"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:background="#000000" >
+
+        </ListView>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/relativeLayout1"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/relativeLayout1"
+        android:layout_marginBottom="24dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/RateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:text="@string/about_rate"
+            android:textSize="10sp"
+            android:width="120dp" />
+
+        <Button
+            android:id="@+id/SendButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:text="@string/about_feedback"
+            android:textSize="10sp"
+            android:width="120dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
