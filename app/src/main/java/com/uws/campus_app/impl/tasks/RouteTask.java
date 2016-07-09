@@ -1,19 +1,3 @@
-/**
- *
- * Copyright 2015 : William Taylor : wi11berto@yahoo.co.uk
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * 	http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package com.uws.campus_app.impl.tasks;
 
 import java.util.ArrayList;
@@ -36,7 +20,8 @@ import com.uws.campus_app.core.http.*;
 import com.uws.campus_app.core.tasks.PathTaskFinished;
 
 public class RouteTask extends AsyncTask<Void, Void, String> {	
-	private static List<PolylineOptions> polylines = new ArrayList<>();
+	private static List<PolylineOptions> POLYLINES = new ArrayList<>();
+
     private ProgressDialog progressDialog;
     private Integer colour = -1;
     private CustomMap map;
@@ -75,7 +60,7 @@ public class RouteTask extends AsyncTask<Void, Void, String> {
     }
     
     public void drawPath(String result, GoogleMap map) {
-        polylines.clear();
+        POLYLINES.clear();
 
 	    try {
 	        JSONObject json = new JSONObject(result);
@@ -89,14 +74,14 @@ public class RouteTask extends AsyncTask<Void, Void, String> {
 	            LatLng src = list.get(z);
 	            LatLng dest = list.get(z + 1);
 
-            	polylines.add(new PolylineOptions()
-                    .add(new LatLng(src.latitude, src.longitude), new LatLng(dest.latitude, dest.longitude))
-                    .width(6)
-                    .color(colour)
-                    .geodesic(false)
+            	POLYLINES.add(new PolylineOptions()
+								.add(new LatLng(src.latitude, src.longitude), new LatLng(dest.latitude, dest.longitude))
+								.width(6)
+								.color(colour)
+								.geodesic(false)
 				);
 
-				map.addPolyline(polylines.get(z));
+				map.addPolyline(POLYLINES.get(z));
 	        }
 	    } catch (Exception e) {
 	        e.printStackTrace();
@@ -177,7 +162,7 @@ public class RouteTask extends AsyncTask<Void, Void, String> {
         	}
         	
         	if(event != null) {
-        		event.onFinished(polylines);
+        		event.onFinished(POLYLINES);
         	}
         }
     }

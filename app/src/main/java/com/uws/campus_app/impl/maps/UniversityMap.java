@@ -1,19 +1,3 @@
-/**
- *
- * Copyright 2015 : William Taylor : wi11berto@yahoo.co.uk
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * 	http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package com.uws.campus_app.impl.maps;
 
 import com.google.android.gms.maps.model.*;
@@ -35,24 +19,24 @@ import android.util.Log;
 import java.util.ArrayList;
 
 public class UniversityMap extends BaseCustomMap implements CustomMap {
-	public static final String BUILDING_MARKERS = "building";
-	public static final String ENTRANCE_MARKERS = "entrance";
-	public static final String PARKING_MARKERS = "parking";
-	public static final String PLACE_MARKERS = "places";
+    public static final String BUILDING_MARKERS = "building";
+    public static final String ENTRANCE_MARKERS = "entrance";
+    public static final String PARKING_MARKERS = "parking";
+    public static final String PLACE_MARKERS = "places";
     public static final Float CENTER_LAT = 55.843542F;
-	public static final Float CENTER_LON = -4.429995F;
-	public static final Float ZOOM = 17.0F;
+    public static final Float CENTER_LON = -4.429995F;
+    public static final Float ZOOM = 17.0F;
 
     private GoogleMap googleMap;
     private Activity activity;
     private Context context;
 
-	public UniversityMap(Activity activity) {
+    public UniversityMap(Activity activity) {
         super(activity);
-	}
+    }
 
-	public void setup(GoogleMap map, Context context, Activity activity) {
-		this.activity = activity;
+    public void setup(GoogleMap map, Context context, Activity activity) {
+        this.activity = activity;
         this.context = context;
 
         applyMapSettings(map);
@@ -68,7 +52,7 @@ public class UniversityMap extends BaseCustomMap implements CustomMap {
                         .tilt(45)
                         .build()
         ));
-	}
+    }
 
     private void placeMarkers(String filename, float color) {
         ArrayList<MarkerInfo> markers = getMarkersFromFile(filename);
@@ -98,10 +82,10 @@ public class UniversityMap extends BaseCustomMap implements CustomMap {
         placeMarkers("markers/place-markers.json", BitmapDescriptorFactory.HUE_YELLOW);
     }
 
-	@Override
-	public GoogleMap getMap() {
-		return this.googleMap;
-	}
+    @Override
+    public GoogleMap getMap() {
+        return this.googleMap;
+    }
 
     public void plotRouteTo(RoomName room) {
         char index = room.getRoomCharacter();

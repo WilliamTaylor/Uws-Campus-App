@@ -1,19 +1,3 @@
-/**
- *
- * Copyright 2015 : William Taylor : wi11berto@yahoo.co.uk
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * 	http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package com.uws.campus_app.impl.maps;
 
 import java.util.List;
@@ -42,29 +26,29 @@ public class TransportMap extends BaseCustomMap implements CustomMap {
     public static final Float CENTER_LON = -4.429995F;
     public static final Float ZOOM = 17.0F;
 
-	private GoogleMap googleMap;
-	private Integer tapCounter;
-	private String lastMarker; 
-	private Activity activity;
-	private Context context;
-	
-	public TransportMap(Activity activity) {
-		super(activity);
-		tapCounter = 0;
-	}
-	
-	public void prepareStations(Activity a) {
-		registerMarker(new TransportMapMarker("Paisley Gilmour Street Station", new LatLng(55.847349F, -4.424475F), TRAIN_MARKER, activity));
+    private GoogleMap googleMap;
+    private Integer tapCounter;
+    private String lastMarker;
+    private Activity activity;
+    private Context context;
+
+    public TransportMap(Activity activity) {
+        super(activity);
+        tapCounter = 0;
+    }
+
+    public void prepareStations(Activity a) {
+        registerMarker(new TransportMapMarker("Paisley Gilmour Street Station", new LatLng(55.847349F, -4.424475F), TRAIN_MARKER, activity));
         registerMarker(new TransportMapMarker("Canal Street Station", new LatLng(55.840181F, -4.423918F), TRAIN_MARKER, activity));
         registerMarker(new TransportMapMarker("Paisley University Bus Stop", new LatLng(55.844512F, -4.430832F), BUS_MARKER, activity));
         registerMarker(new TransportMapMarker("New Street Bus Stop", new LatLng(55.843747F, -4.425994F), BUS_MARKER, activity));
     }
-	
-	public void setup(GoogleMap map, Context c, Activity activity) {
-		this.activity = activity;
-		this.context = c;
-		
-		prepareStations(activity);
+
+    public void setup(GoogleMap map, Context c, Activity activity) {
+        this.activity = activity;
+        this.context = c;
+
+        prepareStations(activity);
 
         if(map != null) {
             applyMapSettings(map);
@@ -80,10 +64,10 @@ public class TransportMap extends BaseCustomMap implements CustomMap {
                             .tilt(45)
                             .build()
             ));
-		}	   
-	}
-	
-	public void showBusPath() {
+        }
+    }
+
+    public void showBusPath() {
         clearMap();
         placeUser();
 
@@ -110,37 +94,37 @@ public class TransportMap extends BaseCustomMap implements CustomMap {
 
         task1.execute();
         task2.execute();
-	}
-	
-	public void showTrainPath() {
+    }
+
+    public void showTrainPath() {
         clearMap();
         placeUser();
 
         List<Marker> onScreenMarkers = getOnScreenMarkers();
-		for(MapMarker marker : getMarkers()) {
+        for(MapMarker marker : getMarkers()) {
             String type = marker.getType();
             if(type.compareToIgnoreCase(TRAIN_MARKER) == 0) {
                 onScreenMarkers.add(marker.insertOnMap(googleMap));
             }
-		}
+        }
 
-		String trainSpot1 = RouteTask.makeURL(getUserLatitude(), getUserLongitude(), 55.847012F, -4.424374F);
-		String trainSpot2 = RouteTask.makeURL(getUserLatitude(), getUserLongitude(), 55.840127F, -4.424588F);
-		 
-		RouteTask task1 = new RouteTask(trainSpot1, context, googleMap, this);
-		RouteTask task2 = new RouteTask(trainSpot2, context, googleMap, this);
-		 
-		if(!UwsCampusApp.locationAndInternetAvailable()) {
-			task1.setCacheFile("cache/station/paisley gilmour street station.json");
-			task2.setCacheFile("cache/station/canel street station.json");
-		}
-		 
-		task1.execute();  
-		task2.execute();  
-	}
+        String trainSpot1 = RouteTask.makeURL(getUserLatitude(), getUserLongitude(), 55.847012F, -4.424374F);
+        String trainSpot2 = RouteTask.makeURL(getUserLatitude(), getUserLongitude(), 55.840127F, -4.424588F);
 
-	@Override
-	public GoogleMap getMap() {
-		return this.googleMap;
-	}
+        RouteTask task1 = new RouteTask(trainSpot1, context, googleMap, this);
+        RouteTask task2 = new RouteTask(trainSpot2, context, googleMap, this);
+
+        if(!UwsCampusApp.locationAndInternetAvailable()) {
+            task1.setCacheFile("cache/station/paisley gilmour street station.json");
+            task2.setCacheFile("cache/station/canel street station.json");
+        }
+
+        task1.execute();
+        task2.execute();
+    }
+
+    @Override
+    public GoogleMap getMap() {
+        return this.googleMap;
+    }
 }

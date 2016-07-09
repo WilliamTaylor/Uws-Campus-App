@@ -1,19 +1,3 @@
-/**
- *
- * Copyright 2015 : William Taylor : wi11berto@yahoo.co.uk
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * 	http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package com.uws.campus_app.impl.activities;
 
 import com.uws.campus_app.R;
@@ -32,19 +16,19 @@ import android.view.WindowManager;
 import android.widget.Button;
 
 public class CampusActivity extends UwsActivity implements OnInputEntered, OnMapReadyCallback  {
-	private static CampusActivity activity;
-	private UniversityMap universityMap;
-	private Button showMajorBuildings;
-	private Button showParkingAreas;
-	private Button showPopularPlaces;
-	private Button showEntrances;
-	private Button switchMap;
-	private Button findRoom;
+    private static CampusActivity activity;
+    private UniversityMap universityMap;
+    private Button showMajorBuildings;
+    private Button showParkingAreas;
+    private Button showPopularPlaces;
+    private Button showEntrances;
+    private Button switchMap;
+    private Button findRoom;
 
-	public CampusActivity() {
-		super(MenuActivity.class);
-		activity = this;
-	}
+    public CampusActivity() {
+        super(MenuActivity.class);
+        activity = this;
+    }
 
     @Override
     public void onMapReady(GoogleMap map) {
@@ -62,78 +46,78 @@ public class CampusActivity extends UwsActivity implements OnInputEntered, OnMap
         setupEvents(findRoom, showPopularPlaces, showParkingAreas, showMajorBuildings, switchMap, showEntrances);
     }
 
-	@Override
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
-		super.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-		super.onCreate(savedInstanceState);
+        super.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        super.onCreate(savedInstanceState);
 
-		setContentView(R.layout.activity_campus);
+        setContentView(R.layout.activity_campus);
 
         MapFragment mapFragment = (MapFragment)getFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(this);
     }
-	
-	@Override
-	public void onInputEntered(String arg0) {
-		RoomName room = new RoomName(arg0);
-		if(room.isRoomNumber()) {
+
+    @Override
+    public void onInputEntered(String arg0) {
+        RoomName room = new RoomName(arg0);
+        if(room.isRoomNumber()) {
             universityMap.plotRouteTo(room);
-			showRoomLevel(room.getFloorNumber());
-		} else if(room.isRoomName()) {
+            showRoomLevel(room.getFloorNumber());
+        } else if(room.isRoomName()) {
             universityMap.plotRouteTo(arg0);
-		} else {
-			invalidRoom();
-		}
-	}
-	
-	public static void setStartingLocation(String room) {
-		final String roomString = room;
-		activity.runOnUiThread(new Runnable() {
-			@Override
-			public void run() {
-				activity.onInputEntered(roomString);
-			}
-		});
-	}
-	
-	private void setupEvents(final Button... buttonArray) {
-		for(int i = 0; i < buttonArray.length; i++) {
-			final Button button = buttonArray[i];
-			final OnClickListener event = new OnClickListener() {
-				@Override
-				public void onClick(View arg0) {
-					if(button == findRoom) {
-						new LocationInputBox(CampusActivity.this).setTitle("Find a room")
-							.setMessage("Enter the name of a room example : E112, Print Shop")
-							.onInputEntered(activity)
-							.show();
-					} else if(button == showParkingAreas) {
+        } else {
+            invalidRoom();
+        }
+    }
+
+    public static void setStartingLocation(String room) {
+        final String roomString = room;
+        activity.runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                activity.onInputEntered(roomString);
+            }
+        });
+    }
+
+    private void setupEvents(final Button... buttonArray) {
+        for(int i = 0; i < buttonArray.length; i++) {
+            final Button button = buttonArray[i];
+            final OnClickListener event = new OnClickListener() {
+                @Override
+                public void onClick(View arg0) {
+                    if(button == findRoom) {
+                        new LocationInputBox(CampusActivity.this).setTitle("Find a room")
+                            .setMessage("Enter the name of a room example : E112, Print Shop")
+                            .onInputEntered(activity)
+                            .show();
+                    } else if(button == showParkingAreas) {
                         universityMap.placeMarkerOfType(UniversityMap.PARKING_MARKERS);
-					} else if(button == showPopularPlaces) {
+                    } else if(button == showPopularPlaces) {
                         universityMap.placeMarkerOfType(UniversityMap.PLACE_MARKERS);
-					} else if(button == showMajorBuildings) {
+                    } else if(button == showMajorBuildings) {
                         universityMap.placeMarkerOfType(UniversityMap.BUILDING_MARKERS);
-					} else if(button == showEntrances) {
+                    } else if(button == showEntrances) {
                         universityMap.placeMarkerOfType(UniversityMap.ENTRANCE_MARKERS);
-					} else {
+                    } else {
                         universityMap.switchMapType();
-					}
-				}
-			};
-			
-			button.setOnClickListener(event);
-		}
-	}
-	
-	private void invalidRoom() {
+                    }
+                }
+            };
+
+            button.setOnClickListener(event);
+        }
+    }
+
+    private void invalidRoom() {
         showMessageBox("Invalid room", "Sorry we don't know that room");
-	}
-	
-	private void showRoomLevel(Integer level) {
+    }
+
+    private void showRoomLevel(Integer level) {
         String msg = "You will find the room on floor " + level.toString() + " in the indicated building."
                 + " There will also be maps on the wall that can help you locate the location of the room "
                 + "inside the indicated building.";
         showMessageBox("Room Floor", msg);
-	}
+    }
 }
 

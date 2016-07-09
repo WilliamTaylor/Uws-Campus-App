@@ -1,19 +1,3 @@
-/**
- *
- * Copyright 2015 : William Taylor : wi11berto@yahoo.co.uk
- *
- * Licensed under the Apache License, Version 2.0 (the "License");
- * you may not use this file except in compliance with the License.
- * You may obtain a copy of the License at
- *
- * 	http://www.apache.org/licenses/LICENSE-2.0
- *
- * Unless required by applicable law or agreed to in writing, software
- * distributed under the License is distributed on an "AS IS" BASIS,
- * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
- * See the License for the specific language governing permissions and
- * limitations under the License.
- */
 package com.uws.campus_app.core.location;
 
 import com.google.android.gms.common.api.GoogleApiClient;
@@ -33,7 +17,7 @@ import android.util.Log;
 public class UserLocation implements LocationListener, ConnectionCallbacks, OnConnectionFailedListener {
     private UserMovedInterface userMovedInterface;
     private GoogleApiClient googleApiClient;
-	private LocationRequest locationRequest;
+    private LocationRequest locationRequest;
     private Double lat = 0.0;
     private Double lng = 0.0;
 
@@ -46,14 +30,14 @@ public class UserLocation implements LocationListener, ConnectionCallbacks, OnCo
         googleApiClient = builder.build();
         googleApiClient.connect();
 
-    	locationRequest = new LocationRequest();
-    	locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
-    	locationRequest.setFastestInterval(100);
-	    locationRequest.setInterval(2500);
+        locationRequest = new LocationRequest();
+        locationRequest.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY);
+        locationRequest.setFastestInterval(100);
+        locationRequest.setInterval(2500);
     }
     
     public void setMap(UserMovedInterface map) {
-    	this.userMovedInterface = map;
+        this.userMovedInterface = map;
     }
 
     @Override
@@ -61,9 +45,9 @@ public class UserLocation implements LocationListener, ConnectionCallbacks, OnCo
         Log.e("onConnectionSuspended", Integer.toString(ms));
     }
 
-	@Override
-	public void onLocationChanged(Location location) {
-		if(location != null) {
+    @Override
+    public void onLocationChanged(Location location) {
+        if(location != null) {
             lng = location.getLongitude();
             lat = location.getLatitude();
 
@@ -73,19 +57,19 @@ public class UserLocation implements LocationListener, ConnectionCallbacks, OnCo
             if(userMovedInterface != null) {
                 userMovedInterface.onUserMoved(lat, lng);
             }
-		}
-	}
+        }
+    }
 
     @Override
     public void onConnectionFailed(ConnectionResult result) {
         Log.i("UserLocation", "Connection failed: ConnectionResult.getErrorCode() = " + result.getErrorCode());
     }
 
-	@Override
-	public void onConnected(Bundle connectionHint) {
+    @Override
+    public void onConnected(Bundle connectionHint) {
         Log.i("UserLocation", "connected");
         LocationServices.FusedLocationApi.requestLocationUpdates(googleApiClient, locationRequest, this);
-	}
+    }
 
     public Double getLat() {
         return lat;
