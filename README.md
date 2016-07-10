@@ -15,6 +15,9 @@ My University hosted a competition to see who could come up with the best mobile
 * Update locations for new buildings
 * Refactor code as this was rushed for a competition.
 
+## Small Example
+
+![alt tag](http://www.williamsamtaylor.co.uk/github-images/campus-app.gif)
 
 ## Links
 
