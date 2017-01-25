@@ -1,6 +1,6 @@
 ![alt tag](http://www.williamsamtaylor.co.uk/github-images/uws-campus-app.png)
 
-<img align='right' width='150' height='150' src='https://lh5.ggpht.com/5RsjiPJrTvF8i7MeZ7Xc6CfN7KyeQIqYmJQaqpvwt2tvcJ2tcbPxFsp9wnVwfXvWD-s=w300-rw'/>
+<img align='right' width='150' height='150' src='https://lh4.ggpht.com/m-svemffTrs24ArFeSpNZ3OeCalHwD8oiWRVA7t1VgtzQPMD4EcHCfKLjYvEKTYTVmI=w300-rw'/>
 
 # Uws-Campus-App
 
