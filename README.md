@@ -1,8 +1,10 @@
+![alt tag](http://www.williamsamtaylor.co.uk/github-images/uws-campus-app.png)
+
+<img align='right' width='150' height='150' src='https://lh5.ggpht.com/5RsjiPJrTvF8i7MeZ7Xc6CfN7KyeQIqYmJQaqpvwt2tvcJ2tcbPxFsp9wnVwfXvWD-s=w300-rw'/>
+
 # Uws-Campus-App
 
 This is a small Java based Android application I made for a university competition. The app is downloadable [here](https://play.google.com/store/apps/details?id=com.uws.campus_app)
-
-![alt tag](http://www.williamsamtaylor.co.uk/github-images/uws-campus-app.png)
 
 ## Overview
 
