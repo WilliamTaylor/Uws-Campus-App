@@ -1,0 +1,68 @@
+[
+    {
+        "email": "abbes.amira@uws.ac.uk",
+        "tel": "0141 848 3493",
+        "name": "Abbes Amira",
+        "office": "F301"
+    },
+    {
+        "email": "Gavin.Baxter@uws.ac.uk",
+        "tel": "0141 849 4182",
+        "name": "Gavin Baxter",
+        "office": "E359"
+    },
+    {
+        "email": "Richard.Beeby@uws.ac.uk",
+        "tel": "0141 848 3320",
+        "name": "Richard Beeby",
+        "office": "E258"
+    },
+    {
+        "email": "miriam.Birch@uws.ac.uk",
+        "tel": "01698 283 100",
+        "name": "Miriam Birch",
+        "office": "A330"
+    },
+    {
+        "email": "Malcolm.Bronte-Stewart@uws.ac.uk",
+        "tel": "0141 848 3323",
+        "name": "Malcolm Bronte-Stewart",
+        "office": "E255"
+    },
+    {
+        "email": "Pablo.Casaseca@uws.ac.uk",
+        "tel": "0141 848 3657",
+        "name": "Pablo Casaseca",
+        "office": "H106"
+    },
+    {
+        "email": "Thomas.Connolly@uws.ac.uk",
+        "tel": "0141 848 3657",
+        "name": "Thomas Connolly",
+        "office": "E261"
+    },
+    {
+        "email": "Evelyn.FitzPatrick@uws.ac.uk",
+        "tel": "0141 848 3319",
+        "name": "Evelyn FitzPatrick",
+        "office": "E266"
+    },
+    {
+        "email": "Bobby.Geary@uws.ac.uk",
+        "tel": "0141 848 3401",
+        "name": "Bobby Geary",
+        "office": "E203"
+    },
+    {
+        "email": "Thomas.Hainey@uws.ac.uk",
+        "tel": "0141 849 4182",
+        "name": "Thomas Hainey",
+        "office": "E359"
+    },
+    {
+        "email": "Alistair.McMonnies@uws.ac.uk",
+        "tel": "0141 848 3739",
+        "name": "Alistair McMonnies",
+        "office": "E269"
+    }
+]

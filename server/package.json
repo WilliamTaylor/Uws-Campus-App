@@ -1,0 +1,15 @@
+{
+  "name": "uwsnode",
+  "version": "1.0.0",
+  "description": "node server for a uws mobile app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node uws-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
