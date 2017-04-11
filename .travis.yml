@@ -1,4 +1,4 @@
 language: java
 script: 
   - cd app
-  - gradle check
+  - ./gradlew check
