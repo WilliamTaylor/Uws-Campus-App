@@ -1,4 +1,6 @@
 language: android
+before_build:
+  - cd app
 android:
   components:
     # Uncomment the lines below if you want to
