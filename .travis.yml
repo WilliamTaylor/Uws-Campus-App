@@ -11,6 +11,8 @@ android:
 
     # The SDK version used to compile your project
     - android-22
+before_install:
+ - chmod +x gradlew
 script:
    - cd app
    - ./gradlew build connectedCheck
