@@ -1,5 +1,6 @@
 language: java
 before_install:
+ - cd app
  - chmod +x gradlew
 script: 
   - cd app
