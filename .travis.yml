@@ -8,8 +8,9 @@ android:
     # Support library
     - extra-android-support
     - extra-android-m2repository
+before_install:
+  - chmod +x gradlew
 script:
    - cd app
-   - chmod +x ./gradlew
    - ./gradlew build connectedCheck
 
