@@ -16,7 +16,6 @@ The Android app was written in Java with the Android SDK as I had little time to
 
 * University map with labels
 * Directions to onsite locations
-* Note taking capabaility
 * Links to UWS services
 * Contacts list 
 * News feed 
@@ -27,6 +26,7 @@ The Android app was written in Java with the Android SDK as I had little time to
 * Better News Feed
 * Update Locations
 * News Web Scraper
+* Material Design
 
 ## License
 
