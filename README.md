@@ -2,7 +2,7 @@
 
 <img align='right' width='150' height='150' src='https://lh4.ggpht.com/m-svemffTrs24ArFeSpNZ3OeCalHwD8oiWRVA7t1VgtzQPMD4EcHCfKLjYvEKTYTVmI=w300-rw'/>
 
-# UWS Campus App
+# UWS Campus App &nbsp; &nbsp; &nbsp; [![Build status](https://travis-ci.org/william-taylor/uws-campus-app.svg?branch=master)](https://travis-ci.org/william-taylor/uws-campus-app) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 This is a small Java based Android application I made for a university competition. The app is downloadable [here](https://play.google.com/store/apps/details?id=com.uws.campus_app).
 It was made because my university hosted a competition to see who could come up with the best mobile app for directing students across the campus. I had 3 weeks to do a prototype. I won the competition so my ideas were absorbed into the official app which will be launching at some date in the future. As it so happens I use it myself so I try to keep it updated where I can.
