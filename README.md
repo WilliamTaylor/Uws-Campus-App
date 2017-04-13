@@ -12,7 +12,16 @@ The Android app was written in Java with the Android SDK as I had little time to
 
 [News Story](http://www.uws.ac.uk/news---categories/corporate/student-creates-uws-campus-app/)
 
-## Future Features
+## Features
+
+* University map with labels
+* Directions to onsite locations
+* Note taking capabaility
+* Links to UWS services
+* Contacts list 
+* News feed 
+
+## Development
 
 * Refactor Source Code
 * Better News Feed
