@@ -4,7 +4,7 @@
 
 # UWS Campus App &nbsp; &nbsp; &nbsp; [![Build status](https://travis-ci.org/william-taylor/uws-campus-app.svg?branch=master)](https://travis-ci.org/william-taylor/uws-campus-app) [![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://github.com/ellerbrock/open-source-badge/) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-UWS Campus App is Java based Android application I made for a university competition. It was made because my university hosted a competition to see who could come up with the best mobile app for directing students across the campus. I only had 3 weeks to do a prototype as I found out about the competition just a few weeks before it was going to end. However I managed to win the competition so my ideas were absorbed into the official app which will be launching at some date in the future. As it so happens I use it myself so I try to keep it updated where I can.
+UWS Campus App is Java based Android application I made for a university competition. It was made because my university hosted a competition to see who could come up with the best mobile app for directing students across the campus, it was built in 3 weeks. However I managed to win the competition so my ideas were absorbed into the official app which will be launching at some date in the future. As it so happens I use it myself so I try to keep it updated where I can.
 
 ## Overview
 
