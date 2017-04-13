@@ -1,16 +1,13 @@
 language: android
+jdk:
+    - oraclejdk8
 android:
-  components:
-    # Update Android SDK Tools
-    - tools
-    - build-tools-23.0.1
-    - android-23
-    # Support library
-    - extra-android-support
-    - extra-android-m2repository
-before_install:
-  - chmod +x gradlew
+    components:
+        - tools
+        - build-tools-25.0.0
+        - platform-tools
+        - android-23
 script:
    - cd app
-   - ./gradlew build connectedCheck
-
+   - chmod +x ./gradlew
+   - ./gradlew clean assembleDebug
